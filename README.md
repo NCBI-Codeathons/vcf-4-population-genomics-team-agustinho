@@ -1,7 +1,7 @@
 # Team Project Name
 
 List of participants and affiliations:
-- Participant, Affiliation (Team Leader)
+- Daniel Paiva Agustinho, Baylor COllege of Medicine (Team Leader)
 - Participant, Affiliation
 
 ## Project Goals

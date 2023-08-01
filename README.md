@@ -6,6 +6,7 @@ List of participants and affiliations:
 - Alexis Quintero, National University of Colombia
 - Andrew Miller, University of Utah
 - John Arnn,  Utah Public Health Laboratory
+- Rong Guo, University of Maryland, College Park
 - Participant, Affiliation
 
 ## Project Goals

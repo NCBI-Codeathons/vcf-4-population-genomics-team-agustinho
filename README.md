@@ -3,7 +3,8 @@
 List of participants and affiliations:
 - Daniel Paiva Agustinho, Baylor COllege of Medicine (Team Leader)
 - Sushant Potdar, University of Arkansas
-- Alexis Quintero, National University of Colombia 
+- Alexis Quintero, National University of Colombia
+- Andrew Miller, University of Utah
 - Participant, Affiliation
 
 ## Project Goals

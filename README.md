@@ -2,6 +2,7 @@
 
 List of participants and affiliations:
 - Daniel Paiva Agustinho, Baylor COllege of Medicine (Team Leader)
+- Sushant Potdar, University of Arkansas
 - Participant, Affiliation
 
 ## Project Goals

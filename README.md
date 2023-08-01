@@ -5,6 +5,7 @@ List of participants and affiliations:
 - Sushant Potdar, University of Arkansas (Writer)
 - Alexis Quintero, National University of Colombia
 - Andrew Miller, University of Utah
+- John Arnn,  Utah Public Health Laboratory
 - Participant, Affiliation
 
 ## Project Goals

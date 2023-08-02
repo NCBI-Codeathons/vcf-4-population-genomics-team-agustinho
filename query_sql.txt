@@ -1,12 +1,12 @@
 #Parse out the NY 2022 samples from the main COVID-19 Genome Sequence dataset (AWS)
 with records as (
-    select "acc", "biosamplemodel_sam"
+    select "acc", "biosamplemodel_sam", "geo_loc_name_sam", "collection_date_sam"
     FROM "ncbi-vcf-codeathon-rc-db1"."metadata"
-    where array_join("geo_loc_name_sam", '') like 'USA: New York'
+    where array_join("geo_loc_name_sam", '') like '%USA: New York%'
     and array_join("collection_date_sam", '') like '2022%'
-    or array_join("geo_loc_name_sam", '') like 'USA: NY'
+    or array_join("geo_loc_name_sam", '') like '%USA: NY%'
     and array_join("collection_date_sam", '') like '2022%'
 )
-select records.acc, records.biosamplemodel_sam, vars."g_ad_2", concat_ws('', cast(vars.pos as varchar), cast(vars."ref" as varchar), cast(vars."alt"as varchar)) as pos_ref_alt
+select records.acc, records.biosamplemodel_sam, vars."g_ad_2", vars.pos,vars."ref", vars."alt", records.geo_loc_name_sam, vars."effect", records."collection_date_sam"
 from records
 join "ncbi-vcf-codeathon-rc-db1"."annotated_variations" as vars on vars.run = records.acc

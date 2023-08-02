@@ -33,5 +33,8 @@ We later used a customized R script (ci_ww_variants.R) and removed any duplicate
 
 ## 4. Results
 We found that around 70% of total variants from our dataset were unique to the clinical isolates, 7% of total variants were unique to the wastewater samples. 6.5% of variants were common between the two sample types.
+![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/Variant%20Venn%20Diagram.png)
+
+
 
 ## 5. Future Work

@@ -29,12 +29,12 @@ In this project, we aim to compare wastewater sampling with clinical isolates fr
 ## 3. Approach
 We first parsed the COVID-19 Genome sequence dataset from AWS for samples from New York in the year 2022 using the query_sql.txt code and extracted the biosamples, accession numbers, chromosomes (chr), position (pos), reference sequence (ref), alternative sequence (alt), read depth (dp), effect (the type of variation), codon (nucleotide sequence change), and g_ad_2 (alt allele depth). For more info on these different attributes (and more), you can check this link: https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud-based-annotated-variations-table/ 
 
+![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/flowchart.png)
+
 We later used a customized R script (ci_ww_variants.R) and removed any duplicated rows within the clinical isolates or the wastewater biosamples. We then identified the common variants present between wastewater and clinical isolates, as well as the unique variants present in each of these samples. 
 
 ## 4. Results
 We found that around 70% of total variants from our dataset were unique to the clinical isolates, 7% of total variants were unique to the wastewater samples. 6.5% of variants were common between the two sample types.
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/Variant%20Venn%20Diagram.png)
-
-
 
 ## 5. Future Work

@@ -42,4 +42,6 @@ When we look at the distribution of the ratio of variants that are only present 
 
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/ww_ratio_florida.png)
 
+For more information and results, please see the 'finalpresentation.pdf' file in our main repository.
+
 ## 5. Future Work

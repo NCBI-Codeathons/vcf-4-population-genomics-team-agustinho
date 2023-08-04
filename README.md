@@ -38,4 +38,5 @@ We found that around 70% of total variants from our dataset were unique to the c
 
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/Variant%20Venn%20Diagram_NY_2022.png)
 
+![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/ww_ratio_florida.png)
 ## 5. Future Work

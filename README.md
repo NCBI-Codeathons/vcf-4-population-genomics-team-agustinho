@@ -31,12 +31,15 @@ We first parsed the COVID-19 Genome sequence dataset from AWS for samples from N
 
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/flowchart.png)
 
-We later used a customized R script (ci_ww_variants.R) and removed any duplicated rows within the clinical isolates or the wastewater biosamples. We then identified the common variants present between wastewater and clinical isolates, as well as the unique variants present in each of these samples. 
+We later used a customized R script (ci_ww_variants.R) and removed any duplicated rows within the clinical isolates or the wastewater biosamples. We then identified the common variants present between wastewater and clinical isolates, as well as the unique variants present in each of these samples. We repeated this for various geographical locations for the year 2022, and created a CovidSummary table with all the months of the year separated for the different geographical locations. 
 
 ## 4. Results
-We found that around 70% of total variants from our dataset were unique to the clinical isolates, 7% of total variants were unique to the wastewater samples. 6.5% of variants were common between the two sample types.
+We found that around 82% of total variants from our dataset were unique to the clinical isolates, 8% of total variants were unique to the wastewater samples. 10% of the variants were common between the two sample types in New York for the year 2022.
 
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/Variant%20Venn%20Diagram_NY_2022.png)
 
+When we look at the distribution of the ratio of variants that are only present in Florida's wastewater across the 12 months in 2022, we find that during the summer months, the ratio is high with the highest confidence, compared to other months in the year.
+
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/ww_ratio_florida.png)
+
 ## 5. Future Work

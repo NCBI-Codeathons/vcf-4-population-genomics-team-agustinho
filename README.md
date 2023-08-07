@@ -32,7 +32,9 @@ As a test case, we first parsed the COVID-19 VCF file from AWS for samples from 
 ![alt text](https://raw.githubusercontent.com/NCBI-Codeathons/vcf-4-population-genomics-team-agustinho/main/flowchart.png)
 
 We later used a customized R script (ci_ww_variants.R) and removed any duplicated rows within the clinical isolates or the wastewater biosamples. We then identified the common variants present between wastewater and clinical isolates, as well as the unique variants present in each of these samples. 
+
 We repeated this for various geographical locations for the year 2022, and created a CovidSummary table with all the months of the year separated for the different geographical locations. Some filters were applied to create a CovidSummary_filter table: synonymous and intergenic variants were removed; allele frequency cut-off >= 0.4 to filter out low frequency alleles that were caused by sequencing errors or other technical errors.
+
 In addition, we estimated a ratio = # of variants only in wastewater/ all # of variants in wastewater to evaluate the representativeness of the clinical samples. The higher the number means more variants only represent in the wastewater, but were not captured in the clinical samples.   
 
 ## 4. Results
